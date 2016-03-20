@@ -1,56 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>寒鸦孤独</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="stylesheet" href="/css/app.css" type="text/css">
-  <!-- <link rel='stylesheet' href='http://fonts.useso.com/css?family=Source+Code+Pro'> -->
-</head>
-
-<body>
-  <nav class="app-nav">
-  
-      
-        <a class="active" href="/.">home</a>
-        
-
-      
-  
-      
-        <a href="/archives">archive</a>
-      
-  
-      
-        <a href="/about">about</a>
-      
-  
-      
-        <a href="/atom.xml">rss</a>
-      
-  
-</nav>
-
-  <main class="archive">
-  
-    <article class="grid">
-  <h1 class="article-title grid-item">
-    <a href="/2015/11/15/肖申克的救赎感想/">《肖申克的救赎》</a>
-  </h1>
-
-  <div class="article-meta">
-    <span class="article-date">11月 15 2015</span>
-  </div>
-</article>
-
-  
-
-  <nav class="page-nav">
-  <span class="page-number current">1</span>
-</nav>
-
-</main>
-
-</body>
-</html>
+doctype html
+html(lang='en-us')
+  head
+    include _head
+    include _mixins
+  body(itemscope, itemtype='https://schema.org/WebPage')
+    header(itemscope, itemtype='https://schema.org/WPHeader')
+      include _header
+      .space
+    main(itemscope, itemtype='https://schema.org/Blog')
+      include _content
+    include _scripts
