@@ -62,7 +62,7 @@
     <span class="posted-on">
       <a href="/2015/12/15/为什么要聊天？/" rel="bookmark">
         <time class="entry-date published" datetime="2015-12-15T15:44:12.000Z">
-          2015-12-15
+          2015-12-15f15
         </time>
       </a>
     </span>
@@ -124,7 +124,7 @@
     <span class="posted-on">
       <a href="/2015/12/15/随心所欲支付/" rel="bookmark">
         <time class="entry-date published" datetime="2015-12-15T15:44:12.000Z">
-          2015-12-15
+          2015-12-15f15
         </time>
       </a>
     </span>
@@ -138,7 +138,36 @@
       
         <pre><code>随心所欲支付
 </code></pre><h1 id="Writing_文章布局、写作格式的定义，不修改">Writing 文章布局、写作格式的定义，不修改</h1><p>new_post_name: :title.md # File name of new posts<br>default_layout: post<br>auto_spacing: false # Add spaces between asian characters and western characters<br>titlecase: false # Transform title into titlecase<br>max_open_file: 100<br>filename_case: 0<br>highlight:<br>enable: true<br>backtick_code_block: true<br>line_number: true<br>tab_replace:</p>
-<h1 id="Category_&amp;_Tag">Category &amp; Tag</h1><p>default_category: uncategorized<br>category_map:<br>tag_map:</p>
+<pre><code>gulp.task(<span class="string">'clean'</span>, <span class="function"><span class="keyword">function</span><span class="params">(cb)</span> </span>{
+
+<span class="keyword">return</span> del([<span class="string">'typing.min.js'</span>], cb);
+
+});
+gulp.task(<span class="string">'clean'</span>, <span class="function"><span class="keyword">function</span><span class="params">(cb)</span> </span>{
+
+<span class="keyword">return</span> del([<span class="string">'typing.min.js'</span>], cb);
+
+});
+</code></pre><h1 id="Category_&amp;_Tag">Category &amp; Tag</h1><pre><code>- (<span class="keyword">void</span>)viewDidLoad 
+{    
+[<span class="keyword">super</span> viewDidLoad]; 
+<span class="built_in">NSAssert</span>(_image, <span class="string">@"Image not set; required to use view controller"</span>); 
+<span class="keyword">self</span><span class="variable">.photoImageView</span><span class="variable">.image</span> = _image; 
+
+<span class="comment">//Resize if neccessary to ensure it's not pixelated </span>
+<span class="keyword">if</span> (_image<span class="variable">.size</span><span class="variable">.height</span> &lt;= <span class="keyword">self</span><span class="variable">.photoImageView</span><span class="variable">.bounds</span><span class="variable">.size</span><span class="variable">.height</span> &amp;&amp; 
+_image<span class="variable">.size</span><span class="variable">.width</span> &lt;= <span class="keyword">self</span><span class="variable">.photoImageView</span><span class="variable">.bounds</span><span class="variable">.size</span><span class="variable">.width</span>) { 
+[<span class="keyword">self</span><span class="variable">.photoImageView</span> setContentMode:<span class="built_in">UIViewContentModeCenter</span>]; 
+} 
+
+<span class="built_in">dispatch_async</span>(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, <span class="number">0</span>), ^{ <span class="comment">// 1 </span>
+<span class="built_in">UIImage</span> *overlayImage = [<span class="keyword">self</span> faceOverlayImageFromImage:_image]; 
+<span class="built_in">dispatch_async</span>(dispatch_get_main_queue(), ^{ <span class="comment">// 2 </span>
+[<span class="keyword">self</span> fadeInNewImage:overlayImage]; <span class="comment">// 3 </span>
+}); 
+}); 
+} 
+</code></pre><p>default_category: uncategorized<br>category_map:<br>tag_map:</p>
 <h1 id="Archives_默认值为2，这里都修改为1，相应页面就只会列出标题，而非全文">Archives 默认值为2，这里都修改为1，相应页面就只会列出标题，而非全文</h1><h2 id="2:_Enable_pagination">2: Enable pagination</h2><h2 id="1:_Disable_pagination">1: Disable pagination</h2><h2 id="0:_Fully_Disable">0: Fully Disable</h2><p>archive: 1</p>
 
       
@@ -166,6 +195,75 @@
             <i class="icon-comments"></i>
             <span>
               <a href="http://yoursite.com/2015/12/15/随心所欲支付/#comment">评论</a>
+            </span>
+          </span>
+        </div>
+        
+    </footer>
+  </div>
+</article>
+
+
+  <article class="post article">
+
+  
+  
+    <h3 class="article-title"><a href="/2015/12/15/证书是什么鬼/"><span>证书是什么鬼</span></a></h3>
+  
+
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2015/12/15/证书是什么鬼/" rel="bookmark">
+        <time class="entry-date published" datetime="2015-12-15T15:44:12.000Z">
+          2015-12-15f15
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <pre><code>iOS证书制作，非常简单
+
+地方和大伙发到付
+
+
+发放环节阿斯蒂芬
+</code></pre><p> 打多少分多少分撒旦</p>
+<p> 发的说法是打发斯蒂芬</p>
+<p>范德萨发生发生地方</p>
+<p>fadsfdsafasfas反对法</p>
+
+      
+    </div>
+    <footer class="article-footer">
+        <div class="article-meta pull-left">
+          <span class="post-categories">
+            <i class="icon-categories"></i>
+            
+          </span>
+          <span class="post-tags">
+            <i class="icon-tags"></i>
+            
+  
+
+  <a href="/tags/iOS/">iOS</a>
+
+
+          </span>
+        </div>
+        
+
+        <div class="article-meta pull-right">
+          <span>
+            <i class="icon-comments"></i>
+            <span>
+              <a href="http://yoursite.com/2015/12/15/证书是什么鬼/#comment">评论</a>
             </span>
           </span>
         </div>
